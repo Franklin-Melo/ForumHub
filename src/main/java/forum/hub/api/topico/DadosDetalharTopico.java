@@ -1,7 +1,6 @@
 package forum.hub.api.topico;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 public record DadosDetalharTopico(Long id, String titulo, String mensagem, LocalDateTime data, String autor, String curso) {
 
